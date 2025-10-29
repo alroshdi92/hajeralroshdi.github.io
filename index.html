@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hajer Alroshdi | Backend Developer & Data Scientist</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="lang-toggle">
+        <button id="langBtn" class="lang-btn" onclick="toggleLanguage()">
+            <i class="fas fa-language"></i> <span id="langText">العربية</span>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">HA</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" data-en="About" data-ar="نبذة">About</a></li>
+                <li><a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+                <li><a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+                <li><a href="#experience" data-en="Experience" data-ar="الخبرة">Experience</a></li>
+                <li><a href="#education" data-en="Education" data-ar="التعليم">Education</a></li>
+                <li><a href="#contact" data-en="Contact Me" data-ar="تواصل معي">Contact Me</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="datum_container hero-content fade-in">
+            <div class="hero-text">
+                <h1 data-en="Hajer Alroshdi" data-ar="هاجر الروشدي">Hajer Alroshdi</h1>
+                <h2 data-en="Backend Developer & Data Scientist" data-ar="مطورة خلفية وعالمة بيانات">Backend Developer & Data Scientist</h2>
+                <p data-en="Passionate about building reliable backend systems, analyzing data, and creating intelligent applications." data-ar="شغوفة ببناء أنظمة خلفية موثوقة وتحليل البيانات وإنشاء تطبيقات ذكية.">Passionate about building reliable backend systems, analyzing data, and creating intelligent applications.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-en="Get In Touch" data-ar="تواصل معي">Get In Touch</a>
+                    <a href="HajerAlroshdi_CV.pdf" download class="btn btn-secondary" data-en="Download Resume" data-ar="تحميل السيرة الذاتية">
+                        <i class="fas fa-download"></i> <span>Download Resume</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper logo-wrapper">
+                    <img src="image/HAJER logo.png" alt="HAJER Logo" id="profileImg" class="hero-logo">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="datum_container">
+            <h2 class="section-title" data-en="About Me" data-ar="نبذة عني">About Me</h2>
+            <div class="about-content slide-up">
+                <div class="about-text">
+                    <p data-en="I'm an IT/Data Management graduate with a passion for technology and data. With over 2 years of experience as a Backend Software Developer specializing in Python and C#, I've built robust APIs, ETL pipelines, and database systems." data-ar="أنا خريجة تقنية المعلومات وإدارة البيانات بشغف بالتكنولوجيا والبيانات. مع أكثر من سنتين من الخبرة كمطورة برمجيات خلفية متخصصة في Python و C#، قمت ببناء واجهات برمجة تطبيقات قوية وخطوط أنابيب ETL وأنظمة قواعد البيانات.">I'm an IT/Data Management graduate with a passion for technology and data. With over 2 years of experience as a Backend Software Developer specializing in Python and C#, I've built robust APIs, ETL pipelines, and database systems.</p>
+                    <p data-en="Additionally, I've undergone intensive training in Data Science & AI for 6 months, working with Pandas, scikit-learn, and TensorFlow to build machine learning models. I love transforming complex data into meaningful insights and building intelligent solutions." data-ar="بالإضافة إلى ذلك، خضعت لتدريب مكثف في علم البيانات والذكاء الاصطناعي لمدة 6 أشهر، أعمل مع Pandas و scikit-learn و TensorFlow لبناء نماذج التعلم الآلي. أحب تحويل البيانات المعقدة إلى رؤى ذات معنى وبناء حلول ذكية.">Additionally, I've undergone intensive training in Data Science & AI for 6 months, working with Pandas, scikit-learn, and TensorFlow to build machine learning models. I love transforming complex data into meaningful insights and building intelligent solutions.</p>
+                    <p data-en="Currently, I'm focused on freelancing and helping clients turn their ideas into reality through clean code, efficient systems, and data-driven solutions." data-ar="حالياً، أركز على العمل الحر ومساعدة العملاء على تحويل أفكارهم إلى واقع من خلال كود نظيف وأنظمة فعالة وحلول مدفوعة بالبيانات.">Currently, I'm focused on freelancing and helping clients turn their ideas into reality through clean code, efficient systems, and data-driven solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="datum_container">
+            <h2 class="section-title" data-en="Skills" data-ar="المهارات">Skills</h2>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category slide-up">
+                    <h3 data-en="Programming Languages" data-ar="لغات البرمجة">Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-windows"></i>
+                            <span>C#</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Tools -->
+                <div class="skill-category slide-up">
+                    <h3 data-en="Frameworks & Tools" data-ar="الأطر والأدوات">Frameworks & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>.NET & ASP.NET</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-stream"></i>
+                            <span>Streamlit</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 82%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Flask</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 78%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>TensorFlow</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Science -->
+                <div class="skill-category slide-up">
+                    <h3 data-en="Data Science & AI" data-ar="علم البيانات والذكاء الاصطناعي">Data Science & AI</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Pandas</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Scikit-learn</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Power BI</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Machine Learning</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 82%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>ETL Pipelines</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="datum_container">
+            <h2 class="section-title" data-en="Projects" data-ar="المشاريع">Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically loaded here -->
+                <div class="loading" data-en="Loading projects..." data-ar="جاري تحميل المشاريع...">Loading projects...</div>
+            </div>
+            <div class="projects-more">
+                <a href="https://github.com/alroshdi92?tab=repositories" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i> <span data-en="See More on GitHub" data-ar="عرض المزيد على جيت هاب">See More on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="datum_container">
+            <h2 class="section-title" data-en="Work Experience" data-ar="الخبرة العملية">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item slide-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Freelance Developer & Data Scientist" data-ar="مطورة مستقلة وعالمة بيانات">Freelance Developer & Data Scientist</h3>
+                        <span class="timeline-period" data-en="Present" data-ar="حالياً">Present</span>
+                        <p data-en="Building custom solutions for clients, including backend systems, data processing pipelines, and interactive dashboards. Skilled at helping businesses leverage their data to gain actionable insights and make informed, data-driven decisions." data-ar="بناء حلول مخصصة للعملاء، بما في ذلك أنظمة خلفية وخطوط أنابيب معالجة البيانات ولوحات معلومات تفاعلية. ماهرة في مساعدة الشركات على الاستفادة من بياناتها للحصول على رؤى قابلة للتنفيذ واتخاذ قرارات مدروسة مدفوعة بالبيانات.">Building custom solutions for clients, including backend systems, data processing pipelines, and interactive dashboards. Skilled at helping businesses leverage their data to gain actionable insights and make informed, data-driven decisions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item slide-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Backend Software Developer" data-ar="مطورة برمجيات خلفية">Backend Software Developer</h3>
+                        <span class="timeline-period" data-en="2+ Years Experience" data-ar="خبرة أكثر من سنتين">2+ Years Experience</span>
+                        <p data-en="Developed robust backend systems using Python and C#. Built REST APIs, implemented database solutions with SQL Server, and created efficient ETL pipelines. Worked on multiple projects involving .NET Framework and ASP.NET MVC." data-ar="طورت أنظمة خلفية قوية باستخدام Python و C#. بنيت واجهات برمجة REST، نفذت حلول قواعد بيانات مع SQL Server، وأنشأت خطوط أنابيب ETL فعالة. عملت على مشاريع متعددة تتضمن .NET Framework و ASP.NET MVC.">Developed robust backend systems using Python and C#. Built REST APIs, implemented database solutions with SQL Server, and created efficient ETL pipelines. Worked on multiple projects involving .NET Framework and ASP.NET MVC.</p>
+                    </div>
+                </div>
+                <div class="timeline-item slide-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Data Science & AI Training" data-ar="تدريب علم البيانات والذكاء الاصطناعي">Data Science & AI Training</h3>
+                        <span class="timeline-period" data-en="6 Months Intensive Training" data-ar="تدريب مكثف 6 أشهر">6 Months Intensive Training</span>
+                        <p data-en="Completed comprehensive training in Data Science and AI. Built machine learning models, created data visualizations, and developed predictive analytics solutions using advanced tools and techniques." data-ar="أكملت تدريباً شاملاً في علم البيانات والذكاء الاصطناعي. بنيت نماذج التعلم الآلي وأنشأت تصورات بيانات وطورت حلول تحليلات تنبؤية باستخدام أدوات وتقنيات متقدمة.">Completed comprehensive training in Data Science and AI. Built machine learning models, created data visualizations, and developed predictive analytics solutions using advanced tools and techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="datum_container">
+            <h2 class="section-title" data-en="Education" data-ar="التعليم">Education</h2>
+            <div class="edu-cards">
+                <div class="edu-card slide-up">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3 data-en="Bachelor's Degree" data-ar="درجة البكالوريوس">Bachelor's Degree</h3>
+                    <h4 data-en="IT / Data Management" data-ar="تقنية المعلومات / إدارة البيانات">IT / Data Management</h4>
+                    <p data-en="Graduated with focus on information technology and data management principles. Final year project: University Library DBMS with smart features and web-based access." data-ar="تخرجت مع التركيز على تقنية المعلومات ومبادئ إدارة البيانات. مشروع السنة الأخيرة: نظام إدارة مكتبة جامعية بميزات ذكية ووصول قائم على الويب.">Graduated with focus on information technology and data management principles. Final year project: University Library DBMS with smart features and web-based access.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="datum_container">
+            <h2 class="section-title" data-en="Get In Touch" data-ar="تواصل معي">Get In Touch</h2>
+            <p class="contact-subtitle" data-en="I'm available for freelance opportunities. Let's discuss your project!" data-ar="أنا متاحة لفرص العمل الحر. دعنا نناقش مشروعك!">I'm available for freelance opportunities. Let's discuss your project!</p>
+            <div class="contact-info slide-up">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                        <a href="mailto:hajeralroshdi99@gmail.com">hajeralroshdi99@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3 data-en="Phone" data-ar="الهاتف">Phone</h3>
+                        <a href="tel:+96894626062">+968 94626062</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3 data-en="Location" data-ar="الموقع">Location</h3>
+                        <p data-en="Oman, Muscat" data-ar="عمان، مسقط">Oman, Muscat</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/alroshdi92" target="_blank" class="social-link" title="GitHub">
+                    <img src="image/github icon.png" alt="GitHub" class="social-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/alroshdi/" target="_blank" class="social-link" title="LinkedIn">
+                    <img src="image/linkedin icon.png" alt="LinkedIn" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="datum_container">
+            <p data-en="© 2025 Hajer Alroshdi. All rights reserved." data-ar="© 2025 هاجر الروشدي. جميع الحقوق محفوظة.">© 2025 Hajer Alroshdi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
